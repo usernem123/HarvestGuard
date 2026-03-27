@@ -1,6 +1,13 @@
 
 # 🌾 HarvestGuard - Decentralized Crop Insurance for Small Farmers
 
+
+Field	Details
+GitHub Repository	https://github.com/usernem123/HarvestGuard
+Contract ID	CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET
+Stellar Expert Link	https://stellar.expert/explorer/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET
+Short Description	HarvestGuard is a decentralized crop insurance smart contract on Stellar Soroban that automatically triggers payouts for farmers based on weather data. It eliminates manual claims, reduces costs, and ensures fast, transparent compensation using blockchain technology.
+
 **Protecting farmers against weather-related crop losses through automated, transparent insurance payouts on Stellar Soroban.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
