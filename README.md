@@ -1,78 +1,109 @@
-
 # 🌾 HarvestGuard - Decentralized Crop Insurance for Small Farmers
-
-
-Field	Details
-GitHub Repository	https://github.com/usernem123/HarvestGuard
-Contract ID	CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET
-Stellar Expert Link	https://stellar.expert/explorer/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET
-Short Description	HarvestGuard is a decentralized crop insurance smart contract on Stellar Soroban that automatically triggers payouts for farmers based on weather data. It eliminates manual claims, reduces costs, and ensures fast, transparent compensation using blockchain technology.
 
 **Protecting farmers against weather-related crop losses through automated, transparent insurance payouts on Stellar Soroban.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Stellar](https://img.shields.io/badge/Stellar-Soroban-blue.svg)](https://soroban.stellar.org/)
 [![Rust](https://img.shields.io/badge/Rust-1.70%2B-orange.svg)](https://www.rust-lang.org/)
+[![Deployed](https://img.shields.io/badge/Deployed-Testnet-brightgreen.svg)](https://stellar.expert/explorer/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET)
+
+---
+
+## 📤 Project Details
+
+| Field | Details |
+|-------|---------|
+| **GitHub Repository** | https://github.com/usernem123/HarvestGuard |
+| **Contract ID** | `CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET` |
+| **Stellar Expert Link** | [View on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET) |
+| **Stellar Lab Link** | [Interact on Stellar Lab](https://lab.stellar.org/r/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET) |
+| **Network** | Stellar Testnet |
+| **Short Description** | HarvestGuard is a decentralized crop insurance smart contract on Stellar Soroban that automatically triggers payouts for farmers based on weather data. It eliminates manual claims, reduces costs, and ensures fast, transparent compensation using blockchain technology. |
+
+---
 
 ## 📋 Overview
 
-HarvestGuard is a decentralized crop insurance platform built on Stellar Soroban that provides small-scale farmers with affordable, transparent, and automated weather-indexed insurance. Using oracle data for rainfall, temperature, and other weather metrics, the smart contract automatically triggers payouts when predefined conditions are met, eliminating the need for manual claims processing and reducing administrative costs.
+HarvestGuard is a **decentralized crop insurance platform** built on **Stellar Soroban** that enables small-scale farmers to access **affordable, transparent, and automated insurance**.
 
-### 🌟 The Problem
+By leveraging **weather oracle data** (rainfall, temperature, humidity), the smart contract automatically triggers payouts when predefined conditions are met—eliminating manual claims and reducing costs.
 
-Smallholder farmers face significant challenges:
-- **Climate volatility**: Increasing weather unpredictability threatens crop yields
-- **Inaccessible insurance**: Traditional insurance is expensive and complex
-- **Slow payouts**: Claims take weeks or months to process
-- **Lack of transparency**: Farmers can't verify claim decisions
-- **High operational costs**: 30-50% of premiums go to administration
+### 🚀 Live Demo
 
-### 💡 The Solution
+- **Contract ID:** `CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET`
+- **Testnet Explorer:** [View Contract](https://stellar.expert/explorer/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET)
+- **Stellar Lab:** [Interact with Contract](https://lab.stellar.org/r/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET)
+
+---
+
+## 🌟 The Problem
+
+Smallholder farmers face major challenges:
+
+| Challenge | Impact |
+|-----------|--------|
+| 🌦️ **Climate volatility** | Unpredictable weather threatens crop yields |
+| 💸 **Inaccessible insurance** | Traditional insurance is expensive and complex |
+| ⏳ **Slow payouts** | Claims take weeks or months to process |
+| 🔍 **Lack of transparency** | Farmers can't verify claim decisions |
+| 🏢 **High operational costs** | 30-50% of premiums go to administration |
+
+---
+
+## 💡 The Solution
 
 HarvestGuard solves these issues through:
-- **Weather-indexed triggers**: Automatic payouts based on objective weather data
-- **Transparent execution**: All contract logic is on-chain and verifiable
-- **Instant payouts**: Farmers receive compensation immediately when conditions are met
-- **Lower costs**: Smart contracts reduce administrative overhead by 80%
-- **Global accessibility**: Anyone with a Stellar wallet can participate
+
+| Solution | Benefit |
+|----------|---------|
+| ⚡ **Weather-indexed triggers** | Automatic payouts based on objective weather data |
+| 🔗 **On-chain transparency** | All contract logic is verifiable |
+| 💰 **Instant payouts** | Farmers receive compensation immediately |
+| 📉 **Lower costs** | Smart contracts reduce admin overhead by 80% |
+| 🌍 **Global accessibility** | Anyone with a Stellar wallet can participate |
+
+---
 
 ## 🚀 Key Features
 
-### For Farmers
+### 👨‍🌾 For Farmers
 - **Affordable premiums**: Pay in small installments using XLM or stablecoins
 - **Automatic coverage**: Weather data triggers automatic protection
 - **Instant claims**: No paperwork or waiting periods
 - **Transparent policies**: View all terms and conditions on-chain
 - **Multi-crop support**: Different insurance products for various crops
 
-### For Insurers/Administrators
+### 🏦 For Insurers / Administrators
 - **Risk assessment tools**: Analyze historical weather patterns
 - **Flexible policies**: Create customized insurance products
 - **Premium management**: Collect and manage farmer premiums
 - **Automated payouts**: Smart contracts handle claim processing
 - **Audit trail**: Complete transaction history on blockchain
 
-### Technical Features
+### ⚙️ Technical Features
 - **Oracle integration**: Reliable weather data feeds
 - **Multi-token support**: XLM, USDC, and custom tokens
-- **Fractional ownership**: Stake in insurance pools
-- **Governance mechanisms**: Community-driven policy updates
+- **Liquidity pools**: Stake in insurance pools for yield
+- **Governance mechanisms**: Community-driven policy updates (future)
 - **Emergency pauses**: Administrator override for extreme conditions
+
+---
 
 ## 📊 Smart Contract Architecture
 
-### Core Components
+### Core Data Structures
 
 ```rust
 // Insurance Policy Structure
 struct Policy {
     farmer: Address,
-    crop_type: CropType,
+    crop_type: String,
+    acres: u32,
     coverage_amount: i128,
     premium_paid: i128,
     start_date: u64,
     end_date: u64,
-    weather_thresholds: WeatherThresholds,
+    rainfall_threshold: u32,
     status: PolicyStatus,
 }
 
@@ -92,9 +123,19 @@ struct PayoutFormula {
     trigger_threshold: u32,
     max_payout: i128,
 }
+
+// Policy Status
+enum PolicyStatus {
+    Active,
+    Expired,
+    PayoutPaid,
+    Disputed,
+}
 ```
 
-### Contract Functions
+---
+
+## 🔧 Contract Functions
 
 | Function | Description | Access |
 |----------|-------------|--------|
@@ -105,16 +146,24 @@ struct PayoutFormula {
 | `update_policy` | Modify policy parameters | Admin |
 | `stake` | Add liquidity to insurance pool | Liquidity Provider |
 | `withdraw` | Remove liquidity from pool | Liquidity Provider |
+| `get_policy` | View policy details | Anyone |
 | `emergency_stop` | Pause contract operations | Admin |
+
+---
 
 ## 🛠️ Technology Stack
 
-- **Smart Contract**: Rust with Soroban SDK
-- **Blockchain**: Stellar Soroban
-- **Oracle**: Chainlink or custom Stellar oracle
-- **Frontend**: React.js + Stellar Wallet SDK
-- **Testing**: Soroban testutils + Rust tests
-- **Deployment**: Stellar CLI + Soroban CLI
+| Layer | Technology |
+|-------|------------|
+| **Smart Contract** | Rust with Soroban SDK |
+| **Blockchain** | Stellar Soroban |
+| **Oracle** | Chainlink / Custom Stellar Oracle |
+| **Frontend** | React.js + Stellar Wallet SDK (Freighter) |
+| **Testing** | Soroban testutils + Rust tests |
+| **Deployment** | Stellar CLI + Soroban CLI |
+| **Wallet** | Freighter Extension |
+
+---
 
 ## 📦 Installation
 
@@ -148,6 +197,10 @@ cargo build --release --target wasm32-unknown-unknown
 cargo test
 ```
 
+---
+
+## 🚀 Deployment
+
 ### Deploy to Testnet
 
 ```bash
@@ -160,10 +213,18 @@ soroban contract deploy \
   --wasm target/wasm32-unknown-unknown/release/harvest_guard.wasm \
   --source deployer \
   --network testnet
-
-# Example output:
-# Contract ID: CA3D5KRY6H7G8J9K0L1P2O3I4U5Y6T7R8E9W0Q1W2E3R4T5Y6U7I8O9P0
 ```
+
+### Deployment Information
+
+| Field | Value |
+|-------|-------|
+| **Network** | Stellar Testnet |
+| **Contract ID** | `CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET` |
+| **Deployment Date** | March 27, 2026 |
+| **Explorer** | [View on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET) |
+
+---
 
 ## 🌾 Sample Usage
 
@@ -172,7 +233,7 @@ soroban contract deploy \
 ```bash
 # Farmer creates policy for 100 acres of maize
 soroban contract invoke \
-  --id CONTRACT_ID \
+  --id CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET \
   --source farmer \
   --network testnet \
   -- create_policy \
@@ -189,7 +250,7 @@ soroban contract invoke \
 ```bash
 # Oracle submits rainfall data
 soroban contract invoke \
-  --id CONTRACT_ID \
+  --id CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET \
   --source oracle \
   --network testnet \
   -- submit_weather \
@@ -204,7 +265,7 @@ soroban contract invoke \
 ```bash
 # Check if policy qualifies for payout
 soroban contract invoke \
-  --id CONTRACT_ID \
+  --id CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET \
   --source farmer \
   --network testnet \
   -- check_trigger \
@@ -216,12 +277,14 @@ soroban contract invoke \
 ```bash
 # Trigger payout (automated or manual)
 soroban contract invoke \
-  --id CONTRACT_ID \
+  --id CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET \
   --source admin \
   --network testnet \
   -- process_payout \
   --policy_id 123
 ```
+
+---
 
 ## 🧪 Testing
 
@@ -245,17 +308,22 @@ test test_expired_policy ... ok
 test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured
 ```
 
+---
+
 ## 📈 Economic Model
 
 ### Premium Structure
-- **Base premium**: 5% of coverage amount
-- **Risk adjustment**: +/- 2% based on historical weather
-- **Crop type modifier**: Different rates for different crops
-- **Volume discount**: 10% off for >100 acres
+| Component | Value |
+|-----------|-------|
+| **Base premium** | 5% of coverage amount |
+| **Risk adjustment** | +/- 2% based on historical weather |
+| **Crop type modifier** | Different rates for different crops |
+| **Volume discount** | 10% off for >100 acres |
 
 ### Payout Formula
 ```
 Payout = Coverage × (Deficit / Threshold) × Multiplier
+
 Where:
 - Deficit = Max(0, Threshold - Actual)
 - Multiplier = 1.5 for severe events
@@ -263,17 +331,25 @@ Where:
 ```
 
 ### Liquidity Provider Returns
-- **Staking rewards**: 50% of premiums distributed to LP
-- **Yield**: 8-15% APY based on pool utilization
-- **Risk sharing**: LPs share in catastrophic losses
+| Metric | Value |
+|--------|-------|
+| **Staking rewards** | 50% of premiums distributed to LP |
+| **Expected yield** | 8-15% APY |
+| **Risk sharing** | LPs share in catastrophic losses |
+
+---
 
 ## 🔒 Security Features
 
-- **Multi-signature admin**: Critical functions require 2-of-3 approval
-- **Circuit breakers**: Emergency pause for extreme weather events
-- **Rate limiting**: Prevent flash loan attacks
-- **Oracle redundancy**: Multiple data sources for validation
-- **Formal verification**: Mathematically proven contract logic
+| Feature | Description |
+|---------|-------------|
+| **Multi-signature admin** | Critical functions require 2-of-3 approval |
+| **Circuit breakers** | Emergency pause for extreme weather events |
+| **Rate limiting** | Prevent flash loan attacks |
+| **Oracle redundancy** | Multiple data sources for validation |
+| **Formal verification** | Mathematically proven contract logic (planned) |
+
+---
 
 ## 🌍 Use Cases
 
@@ -297,23 +373,28 @@ Where:
 - Track social impact metrics
 - Generate sustainable returns
 
+---
+
 ## 📊 Performance Metrics
 
 | Metric | Target | Current |
 |--------|--------|---------|
-| Payout Time | < 1 hour | Instant |
-| Premium Cost | 5% of coverage | 4-7% |
-| Operational Cost | < 10% of premiums | 3% |
-| Farmer Adoption | 10,000 farmers | 1,200 |
-| Total Coverage | $5M | $850K |
+| **Payout Time** | < 1 hour | Instant |
+| **Premium Cost** | 5% of coverage | 4-7% |
+| **Operational Cost** | < 10% of premiums | 3% |
+| **Farmer Adoption** | 10,000 farmers | In Progress |
+| **Total Coverage** | $5M | In Progress |
+
+---
 
 ## 🗺️ Roadmap
 
-### Phase 1: MVP (Q2 2026)
+### Phase 1: MVP ✅ (Current)
 - Basic policy creation
 - Weather oracle integration
 - Automatic payouts
 - Testnet deployment
+- **Contract ID:** `CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET`
 
 ### Phase 2: Enhanced Features (Q3 2026)
 - Multi-crop support
@@ -333,11 +414,12 @@ Where:
 - AI risk assessment
 - Carbon credit integration
 
+---
+
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md).
+We welcome contributions! Please follow these steps:
 
-### Development Process
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit changes (`git commit -m 'Add amazing feature'`)
@@ -350,9 +432,11 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - Documentation for all public functions
 - Security audit before mainnet
 
+---
+
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License © 2026 HarvestGuard
 
 ```
 MIT License
@@ -378,6 +462,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
+---
+
 ## 🙏 Acknowledgments
 
 - **Stellar Development Foundation** for Soroban platform
@@ -388,9 +474,11 @@ SOFTWARE.
 
 ## 📞 Contact & Support
 
-- **GitHub Issues**: [Report bugs](https://github.com/usernem123/HarvestGuard/issues)
-- **Documentation**: [Wiki](https://github.com/usernem123/HarvestGuard/wiki)
-- **Email**: support@harvestguard.io
+| Platform | Link |
+|----------|------|
+| **GitHub Issues** | [Report bugs](https://github.com/usernem123/HarvestGuard/issues) |
+| **Documentation** | [Wiki](https://github.com/usernem123/HarvestGuard/wiki) |
+| **Email** | support@harvestguard.io |
 
 ## 🌱 Success Stories
 
@@ -402,9 +490,21 @@ SOFTWARE.
 
 ---
 
-**Built with ❤️ for farmers around the world on Stellar Soroban**
+## 📊 Project Status
 
-[Website](https://harvestguard.io) • [Documentation](https://docs.harvestguard.io) • [Demo](https://demo.harvestguard.io)
+| Component | Status |
+|-----------|--------|
+| Smart Contract | ✅ Deployed |
+| Unit Tests | ✅ Passing |
+| Testnet Deployment | ✅ Live |
+| Contract ID | `CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET` |
+| Frontend | 🚧 In Development |
+| Mainnet Ready | 🚧 Planned |
 
 ---
 
+**Built with ❤️ for farmers around the world on Stellar Soroban**
+
+[GitHub Repository](https://github.com/usernem123/HarvestGuard) • [Stellar Expert](https://stellar.expert/explorer/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET) • [Stellar Lab](https://lab.stellar.org/r/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET)
+
+---
