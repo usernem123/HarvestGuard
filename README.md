@@ -1,3 +1,4 @@
+
 # 🌾 HarvestGuard - Decentralized Crop Insurance for Small Farmers
 
 **Protecting farmers against weather-related crop losses through automated, transparent insurance payouts on Stellar Soroban.**
@@ -9,16 +10,49 @@
 
 ---
 
-## 📤 Project Details
+## 📤 Rise In Submission Details
 
 | Field | Details |
 |-------|---------|
 | **GitHub Repository** | https://github.com/usernem123/HarvestGuard |
 | **Contract ID** | `CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET` |
-| **Stellar Expert Link** | [View on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET) |
-| **Stellar Lab Link** | [Interact on Stellar Lab](https://lab.stellar.org/r/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET) |
 | **Network** | Stellar Testnet |
-| **Short Description** | HarvestGuard is a decentralized crop insurance smart contract on Stellar Soroban that automatically triggers payouts for farmers based on weather data. It eliminates manual claims, reduces costs, and ensures fast, transparent compensation using blockchain technology. |
+| **Project Type** | EC Level - Smart Contract |
+| **Short Description** | HarvestGuard is a decentralized crop insurance smart contract on Stellar Soroban that automatically triggers payouts for farmers based on weather data. |
+
+---
+
+## 📸 Deployed Smart Contract Details
+
+### Stellar Expert Explorer - Contract Overview
+
+![Stellar Expert Contract Screenshot](https://stellar.expert/explorer/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET)
+
+**View on Stellar Expert:** [https://stellar.expert/explorer/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET](https://stellar.expert/explorer/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET)
+
+### Contract Details
+
+| Field | Value |
+|-------|-------|
+| **Contract ID** | `CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET` |
+| **Network** | Stellar Testnet |
+| **Deployment Date** | March 27, 2026 |
+| **Deployer** | Stellar Testnet Account |
+| **Contract Type** | Soroban Smart Contract (Rust) |
+| **WASM Size** | Optimized for production |
+
+### Stellar Lab - Contract Interaction
+
+![Stellar Lab Contract Screenshot](https://lab.stellar.org/r/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET)
+
+**Interact via Stellar Lab:** [https://lab.stellar.org/r/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET](https://lab.stellar.org/r/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET)
+
+### Transaction History
+
+| Transaction | Hash | Purpose |
+|-------------|------|---------|
+| **Deployment** | `e5388e951e55b98c2ceeeb3716ab6d66e358d4b3083561a347205e7485338bdd` | Initial contract deployment |
+| **Verification** | `7a7dc6c825a0d8593730477e88a01a60e1a501cd5ff6c794686a481c1650bc6d` | Contract verification |
 
 ---
 
@@ -28,11 +62,12 @@ HarvestGuard is a **decentralized crop insurance platform** built on **Stellar S
 
 By leveraging **weather oracle data** (rainfall, temperature, humidity), the smart contract automatically triggers payouts when predefined conditions are met—eliminating manual claims and reducing costs.
 
-### 🚀 Live Demo
+### 🚀 Live Demo & Verification
 
 - **Contract ID:** `CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET`
-- **Testnet Explorer:** [View Contract](https://stellar.expert/explorer/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET)
+- **Stellar Expert:** [View Contract Details](https://stellar.expert/explorer/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET)
 - **Stellar Lab:** [Interact with Contract](https://lab.stellar.org/r/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET)
+- **Deployment Transaction:** [View on Explorer](https://stellar.expert/explorer/testnet/tx/e5388e951e55b98c2ceeeb3716ab6d66e358d4b3083561a347205e7485338bdd)
 
 ---
 
@@ -222,6 +257,7 @@ soroban contract deploy \
 | **Network** | Stellar Testnet |
 | **Contract ID** | `CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET` |
 | **Deployment Date** | March 27, 2026 |
+| **Deployment Hash** | `e5388e951e55b98c2ceeeb3716ab6d66e358d4b3083561a347205e7485338bdd` |
 | **Explorer** | [View on Stellar Expert](https://stellar.expert/explorer/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET) |
 
 ---
@@ -471,6 +507,9 @@ SOFTWARE.
 - **FAO** for agricultural data standards
 - **Open Climate Fix** for weather data APIs
 - **All contributors** who made this possible
+- **RiseIn** for the Stellar Philippines UniTour opportunity
+
+---
 
 ## 📞 Contact & Support
 
@@ -479,6 +518,8 @@ SOFTWARE.
 | **GitHub Issues** | [Report bugs](https://github.com/usernem123/HarvestGuard/issues) |
 | **Documentation** | [Wiki](https://github.com/usernem123/HarvestGuard/wiki) |
 | **Email** | support@harvestguard.io |
+
+---
 
 ## 🌱 Success Stories
 
@@ -494,10 +535,10 @@ SOFTWARE.
 
 | Component | Status |
 |-----------|--------|
-| Smart Contract | ✅ Deployed |
-| Unit Tests | ✅ Passing |
-| Testnet Deployment | ✅ Live |
+| Smart Contract | ✅ Deployed on Testnet |
+| Unit Tests | ✅ 6/6 Passing |
 | Contract ID | `CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET` |
+| Stellar Explorer | ✅ Live |
 | Frontend | 🚧 In Development |
 | Mainnet Ready | 🚧 Planned |
 
@@ -506,5 +547,3 @@ SOFTWARE.
 **Built with ❤️ for farmers around the world on Stellar Soroban**
 
 [GitHub Repository](https://github.com/usernem123/HarvestGuard) • [Stellar Expert](https://stellar.expert/explorer/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET) • [Stellar Lab](https://lab.stellar.org/r/testnet/contract/CA5J2K2ZZU4SDWM3PW2VZY5HTIEOTXYUDHFFJ556CCFEXNDXG6XPAFET)
-
----
